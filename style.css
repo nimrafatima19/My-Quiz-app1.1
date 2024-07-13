@@ -1,0 +1,222 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 80px;
+    background-color: #0d6db7;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.sign{
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.logo {
+
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo>img {
+
+    width: 100%;
+}
+
+.icon>a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.hero {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #0d9bb7; */
+    padding: 40px 80px;
+    margin-top: 90px;
+}
+
+.box {
+
+    width: 400px;
+    /* height: 450px; */
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 40px 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-top: 1px solid #0d6db7;
+    border-bottom: 1px solid #0d6db7;
+}
+
+.heading {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #0d6db7
+}
+
+.userName {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0d6db7;
+    font-size: 1.2rem;
+}
+
+.email {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.password {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.login {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userName>input {
+    width: 90%;
+    background-color: transparent;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #0d6db7;
+}
+
+.userName>input:focus {
+
+    outline: none;
+}
+
+.btn1 {
+
+    padding: 8px 13px;
+    color: #0d6db7;
+    font-size: 1rem;
+    border: 1px solid #0d6db7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.btn2 {
+
+    padding: 5px 15px;
+    color: #ffffff;
+    font-size: 1rem;
+    border: 1px solid #0d6db7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+
+.userName>input::placeholder{
+
+    color: silver;
+}
+.userName>input{
+
+    color:gray;
+}
+
+.btn1:active{
+
+    background-color: #0d6db7;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+    header {
+        padding: 5px 40px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .icon>a {
+        font-size: 1.5rem;
+    }
+
+    .hero {
+
+        padding: 40px
+    }
+
+    .box {
+
+        width: 300px;
+        gap: 25px;
+    }
+
+    .btn1 {
+
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
+
+    .btn2 {
+
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
+
+}

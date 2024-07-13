@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.subjects{
+
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* background-color: aqua; */
+    padding: 30px 80px;
+    margin-top: 90px;
+}
+
+.sub{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+   font-size: 1.2rem;
+    background-color: white;
+    color:#0d6db7;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+
+}
+
+.subBox{
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 80px;
+
+}
+
+.subBox1{
+    width:100%;
+   
+    /* background-color: aquamarine; */
+    padding: 18px;
+    flex-wrap: wrap;
+    
+  
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+   
+}
+.subType{
+
+    width:100%;
+    display: flex;
+    padding: 20px;
+    font-size: 1.2rem;
+    color:#0d6db7
+}
+
+.subType:hover{
+    background-color: #0d6db7;
+    color: white;
+}
+
+.backBtn{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+}
+
+.backBtn>button{
+
+    
+    border: solid 1px #0d6db7;
+    padding: 10px 20px;
+    background-color: white;
+    color: #0d6db7;
+}
+
+.backBtn>button:hover{
+
+    background-color: #0d6db7;
+    color: white;
+}
+
+
+@media screen and (max-width:500px){
+.subjects{
+
+    padding: 20px 30px;
+}
+.sub{
+
+    padding: 20px;
+    font-size: 1rem;
+}
+.subBox{
+
+    padding: 20px 30px;
+}
+.subType{
+
+    padding: 15px;
+    font-size: 1rem;
+}
+}

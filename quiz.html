@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"> <img src="./images/logo nim-01.png" alt=""></div>
+        <div class="icon"> <a href="https://github.com/nimrafatima19?tab=repositories" target="_blank"><i
+                    class=" fa-brands fa-github"></i></a></div>
+    </header>
+
+    <section class="main" id="quiz">
+        <div class="box">
+            <div class="que">
+                <div class="quetion1" id="question">Dami Question</div>
+                <div class="timer" id="timer">4:59</div>
+            </div>
+            <div class="option">
+                <input type="radio" name="answer" id="option1">
+                <label for="option1" id="val_1">Option1</label>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="answer" id="option2">
+                <label for="option2" id="val_2">Option2</label>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="answer" id="option3">
+                <label for="option3" id="val_3">Option3</label>
+            </div>
+
+            <div class="option">
+                <input type="radio" name="answer" id="option4">
+                <label for="option4" id="val_4">Option4</label>
+            </div>
+
+            <div class="next"><button type="submit" id="next">Next</button></div>
+
+        </div>
+    </section>
+   
+        
+   
+    <section class="mains" id="mains">
+        <div class="boxs">
+            <div class="head">Result</div>
+            <div class="icons"><i class="fa-solid fa-square-poll-vertical"></i></div>
+            <div class="percentage">
+                <div class="per" id="per">80%</div>
+            </div>
+            <div class="congrate" id="congrate">Congratulation<br>👏</div>
+            <div class="name" id="name">Nimra</div>
+            <div class="correct" id="correct">Correct Answer: 0</div>
+            <div class="total" id="total">Total Questoin: 0</div>
+        </div>
+    </section>
+
+    </body>
+    <script type="module" src="quiz.js"></script>
