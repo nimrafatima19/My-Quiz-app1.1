@@ -9,14 +9,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 80px;
+    padding: 10px 80px;
     background-color: #0d6db7;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     position: fixed;
     top: 0;
     z-index: 1;
 }
 
-.sign{
+.sign {
     font-size: 2rem;
     color: #ffffff;
 }
@@ -29,7 +30,7 @@ header {
     align-items: center;
 }
 
-.logopng{
+.logopng {
     height: 60px;
 }
 
@@ -41,10 +42,12 @@ header {
     border-radius: 4px;
     cursor: pointer;
 }
-.icon:active{
+
+.icon:active {
     color: #0d6db7;
     background-color: white;
-    }
+}
+
 .hero {
 
     width: 100%;
@@ -159,19 +162,20 @@ header {
     background-color: green;
 }
 
-.userName>input::placeholder{
+.userName>input::placeholder {
 
     color: silver;
 }
-.userName>input{
 
-    color:gray;
+.userName>input {
+
+    color: gray;
 }
 
-.btn1:active{
+.btn1:active {
 
     background-color: #0d6db7;
-    color:white;
+    color: white;
 }
 
 
