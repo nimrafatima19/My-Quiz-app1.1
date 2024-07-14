@@ -148,7 +148,7 @@ function startTimer() {
             let second = Math.floor(timeleft % 60)
             timer.innerHTML = `${mintues}:${second}`
         }
-    }, 5)
+    }, 120)
 }
 renderQuestion()
 startTimer()

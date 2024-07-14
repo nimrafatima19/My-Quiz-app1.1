@@ -6,34 +6,49 @@
 
 header {
     width: 100%;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 80px;
+    padding: 10px 80px;
     background-color: #0d6db7;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     position: fixed;
     top: 0;
     z-index: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.sign {
+    font-size: 2rem;
+    color: #ffffff;
 }
 
 .logo {
 
-    width: 100px;
+    width: 80px;
     height: auto;
     display: flex;
     align-items: center;
 }
 
-.logo>img {
-
-    width: 100%;
+.logopng {
+    height: 60px;
 }
 
-.icon>a {
-
-    text-decoration: none;
+.icon {
+    border: 1px solid white;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.icon:active {
+    color: #0d6db7;
+    background-color: white;
 }
 
 .verify {
@@ -124,11 +139,11 @@ cursor: pointer;
     }
 
     .logo {
-        width: 60px;
+        width: 50px;
     }
 
-    .icon>a {
-        font-size: 1.5rem;
+    .icon {
+        font-size: 1rem;
     }
     .verifyBox{
         padding: 30px 40px;
