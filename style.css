@@ -23,24 +23,28 @@ header {
 
 .logo {
 
-    width: 100px;
+    width: 80px;
     height: auto;
     display: flex;
     align-items: center;
 }
 
-.logo>img {
-
-    width: 100%;
+.logopng{
+    height: 60px;
 }
 
-.icon>a {
-
-    text-decoration: none;
+.icon {
+    border: 1px solid white;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
 }
-
+.icon:active{
+    color: #0d6db7;
+    background-color: white;
+    }
 .hero {
 
     width: 100%;
@@ -189,11 +193,11 @@ header {
     }
 
     .logo {
-        width: 60px;
+        width: 50px;
     }
 
-    .icon>a {
-        font-size: 1.5rem;
+    .icon {
+        font-size: 1rem;
     }
 
     .hero {

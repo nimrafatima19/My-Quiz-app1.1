@@ -29,3 +29,7 @@ function create(){
 createBtn.addEventListener("click",create)
 
 
+let iconSignup = document.getElementById("iconSignup")
+iconSignup.addEventListener("click",create)
+
+
