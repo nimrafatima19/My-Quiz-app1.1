@@ -29,3 +29,6 @@ function accountLogin(){
 }
 
 loginAccount.addEventListener("click",accountLogin)
+
+let iconlogin = document.getElementById("iconlogin")
+iconlogin.addEventListener("click",accountLogin)
